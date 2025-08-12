@@ -1,0 +1,57 @@
+{
+    "header":{
+        "My-Portfolio": "My Portfolio",
+        "About-me": "About me",
+        "Skills": "Skills",
+        "Experience": "Experience",
+        "Proyects": "Proyects",
+        "Contact": "Contact me"
+    },
+    "home":{
+        "Hello":"Hello! I'm",
+        "Description":"Systems Engineering student | Interested in cybersecurity and project management.",
+        "View-CV":"View CV",
+        "Contact-me":"Contact me"
+    },
+    "about-me":{
+        "About-me": "About me",
+        "Description2":"I am a Systems Engineering student, currently in my 8th semester at the National University of Engineering. I am interested in cybersecurity because of the challenge of protecting critical systems against emerging threats. Project management allows me to lead teams and turn ideas into real solutions. I also see in data science an opportunity to generate valuable insights that support strategic decision-making."
+    },
+    "skills":{
+        "skills":"Skills",
+        "development":"Development",
+        "networking":"Networking and Monitoring",
+        "tools":"Tools",
+        "languages":"Languages",
+        "other":"Other Skills",
+        "spanish":"Spanish",
+        "english":"English",
+        "adaptability":"Adaptability",
+        "teamwork":"Teamwork",
+        "problem":"Problem Solving"
+    },
+    "experience":{
+        "experience":"Experience",
+        "date1":"Jun 2025 - Jul 2025",
+        "title1":"Participant in Project Fair - National University of Engineering",
+        "des1":"Presented a project to improve automation in the current Faculty Selection Process."
+    },
+    "proyects":{
+        "proyects":"Proyects",
+        "title1":"Web System for Faculty Selection",
+        "title2":"Networking and Monitoring",
+        "des1":"Automation and Digitalization of the Faculty Selection Process.",
+        "des2":"Website about my professional trajectory.",
+        "code":"View Code"
+    },
+    "contact":{
+        "contact":"Contact me",
+        "name":"Name",
+        "mail":"Mail",
+        "message":"Message",
+        "plus":"More ways to contact me"
+    },
+    "footer":{
+        "footer":"By Leonardo. Made with"
+    }
+}

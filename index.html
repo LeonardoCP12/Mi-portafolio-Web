@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Portafolio de Leonardo / Estudiante de ingeniería de sistemas" />
+  <title data-section="header" data-value="My-Portfolio">Mi Portafolio</title>
+
+  <!-- Google Font + Font Awesome -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="left-header">
+        <a class="brand" href="#home" data-section="header" data-value="My-Portfolio">Mi Portafolio</a>
+
+        <!-- Language selector -->
+        <select id="lang-select">
+          <option value="es">ES</option>
+          <option value="en">EN</option>
+        </select>
+      </div>
+ 
+      <nav class="main-nav">
+        <ul class="nav-list">
+          <li><a href="#home" data-section="header" data-value="About-me">Sobre mí</a></li>
+          <li><a href="#skills" data-section="header" data-value="Skills">Habilidades</a></li>
+          <li><a href="#experience" data-section="header" data-value="Experience">Experiencia</a></li>
+          <li><a href="#projects" data-section="header" data-value="Proyects">Proyectos</a></li>
+          <li><a href="#contact" data-section="header" data-value="Contact">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="right-header">
+        <!-- Social media icons -->
+        <div class="social-inline">
+          <a href="https://github.com/LeonardoCP12" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com/in/leonardo-gustavo-cárdenas-palacios-8655422a4" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="https://wa.me/969759768" target="_blank" rel="noopener" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+
+        <!-- Theme toggle button -->
+        <button id="theme-toggle-btn" title="Modo claro/oscuro" class="theme-toggle-btn">
+          <i class="fas fa-moon"></i>
+        </button>
+
+        <!-- Navigation toggle button -->
+        <button class="nav-toggle">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <!-- HERO section -->
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <!-- Greeting and name -->
+          <h1 id="hero-title" data-section="home" data-value="Hello">Hola! soy</h1>
+          <h1 id="hero-title"><span class="highlight">Leonardo Cárdenas Palacios</span></h1>
+          <!-- Short description -->
+          <p class="lead" data-section="home" data-value="Description">
+            Estudiante de Ingeniería de sistemas | Interés en ciberseguridad y gestión de proyectos.
+          </p>
+          <div class="cta-row">
+            <!-- CV button stays in Hero -->
+            <a class="btn primary" id="hero-cv" href="document/CV_Cardenas_Palacios_Leonardo_Gustavo.pdf" target="_blank" rel="noopener">
+              <i class="fas fa-file-pdf"></i data-section="home" data-value="View-CV">Ver CV</a>
+            <a class="btn ghost" href="#contact" data-section="home" data-value="Contact-me">Contactarme</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <!-- Profile photo -->
+          <img src="image/image_perfil.jpg" alt="Leonardo" id="hero-photo">
+
+          <!-- Large social icons below the photo (moved + made larger) -->
+          <div class="social-under-photo">
+            <a href="https://github.com/LeonardoCP12" target="_blank" rel="noopener" title="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/leonardo-gustavo-cárdenas-palacios-8655422a4" target="_blank" rel="noopener" title="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://wa.me/969759768" target="_blank" rel="noopener" title="WhatsApp">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT section -->
+    <section class="section" id="about">
+      <div class="container">
+        <!-- About me title -->
+        <h2 id="about-title" data-section="about-me" data-value="About-me">Sobre mí</h2>
+        <!-- About me description -->
+        <p data-section="about-me" data-value="Description2">
+          Soy estudiante de la cargar de ingeniería de sistemas, actualmente en 8vo ciclo en la Universidad Nacional de Ingeniería.
+          Me interesa la ciberseguridad por el desafío de proteger sistemas críticos contra amenazas emergentes. 
+          La gestión de proyectos me permite liderar equipos y transformar ideas en soluciones reales. 
+          También veo en la ciencia de datos una oportunidad para generar insights valiosos que apoyen la toma de decisiones estratégicas.
+        </p>
+      </div>
+    </section>
+    
+    <!-- SKILLS (improved original style) -->
+    <section class="section" id="skills">
+      <div class="container">
+        <h2 id="skills-title" data-section="skills" data-value="skills">Habilidades</h2>
+
+        <div class="skills-wrapper">
+
+          <!-- Column 1 -->
+          <div class="skills-column">
+            <h3 data-section="skills" data-value="development">Desarrollo</h3>
+            <div class="skill">
+              <div class="skill-meta">
+                <i class="skill-icon fab fa-html5"></i>
+                <span class="skill-text">HTML5</span>
+              </div>
+              <div class="skill-bar"><span style="width:50%"></span></div>
+            </div>
+            <div class="skill">
+              <div class="skill-meta">
+                <i class="skill-icon fab fa-css3-alt"></i>
+                <span class="skill-text">CSS3</span>
+              </div>
+              <div class="skill-bar"><span style="width:50%"></span></div>
+            </div>
+            <div class="skill">
+              <div class="skill-meta">
+                <i class="skill-icon fab fa-js"></i>
+                <span class="skill-text">JavaScript</span>
+              </div>
+              <div class="skill-bar"><span style="width:40%"></span></div>
+            </div>
+            <div class="skill">
+              <div class="skill-meta">
+                <i class="skill-icon fab fa-python"></i>
+                <span class="skill-text">Python</span>
+              </div>
+              <div class="skill-bar"><span style="width:75%"></span></div>
+            </div>
+          </div>
+
+          <!-- Column 2 -->
+          <div class="skills-column">
+            <h3 data-section="skills" data-value="networking">Redes y Monitoreo</h3>
+            <div class="skill">
+              <div class="skill-meta">
+                <i class="skill-icon fas fa-server"></i>
+                <span class="skill-text">Packet Tracer</span>
+              </div>
+              <div class="skill-bar"><span style="width:75%"></span></div>
+            </div>
+            <div class="skill">
+              <div class="skill-meta">
+                <i class="skill-icon fas fa-search"></i>
+                <span class="skill-text">Wireshark</span>
+              </div>
+              <div class="skill-bar"><span style="width:40%"></span></div>
+            </div>
+            <div class="skill">
+              <div class="skill-meta">
+                <i class="skill-icon fas fa-shield-alt"></i>
+                <span class="skill-text">Snort</span>
+              </div>
+              <div class="skill-bar"><span style="width:40%"></span></div>
+            </div>
+            <div class="skill">
+              <div class="skill-meta">
+                <i class="skill-icon fas fa-chart-bar"></i>
+                <span class="skill-text">Kibana</span>
+              </div>
+              <div class="skill-bar"><span style="width:40%"></span></div>
+            </div>
+          </div>
+
+          <!-- Column 3 -->
+          <div class="skills-column">
+            <h3>Frameworks</h3>
+            <div class="skill">
+              <div class="skill-meta">
+                <i class="skill-icon fas fa-project-diagram"></i>
+                <span class="skill-text">UML</span>
+              </div>
+              <div class="skill-bar"><span style="width:90%"></span></div>
+            </div>
+            <div class="skill">
+              <div class="skill-meta">
+                <i class="skill-icon fas fa-tasks"></i>
+                <span class="skill-text">SCRUM</span>
+              </div>
+              <div class="skill-bar"><span style="width:90%"></span></div>
+            </div>
+            <div class="skill">
+              <div class="skill-meta">
+                <i class="skill-icon fab fa-python"></i>
+                <span class="skill-text">Django</span>
+              </div>
+              <div class="skill-bar"><span style="width:50%"></span></div>
+            </div>
+            <div class="skill">
+              <div class="skill-meta">
+                <i class="skill-icon fab fa-bootstrap"></i>
+                <span class="skill-text">Bootstrap</span>
+              </div>
+              <div class="skill-bar"><span style="width:30%"></span></div>
+            </div>
+          </div>
+
+          <!-- Column 4 -->
+          <div class="skills-column">
+            <h3 data-section="skills" data-value="tools">Herramientas</h3>
+            <div class="skill">
+              <div class="skill-meta">
+                <i class="skill-icon fas fa-database"></i>
+                <span class="skill-text">pgAdmin</span>
+              </div>
+              <div class="skill-bar"><span style="width:85%"></span></div>
+            </div>
+            <div class="skill">
+              <div class="skill-meta">
+                <i class="skill-icon fab fa-github"></i>
+                <span class="skill-text">GitHub</span>
+              </div>
+              <div class="skill-bar"><span style="width:80%"></span></div>
+            </div>
+            <div class="skill">
+              <div class="skill-meta">
+                <i class="skill-icon fas fa-file-invoice"></i>
+                <span class="skill-text">Microsoft Office</span>
+              </div>
+              <div class="skill-bar"><span style="width:80%"></span></div>
+            </div>
+            <div class="skill">
+              <div class="skill-meta">
+                <i class="skill-icon fas fa-code"></i>
+                <span class="skill-text">Visual Studio Code</span>
+              </div>
+              <div class="skill-bar"><span style="width:90%"></span></div>
+            </div>
+          </div>
+
+          <!-- Column 5 -->
+          <div class="skills-column">
+            <h3 data-section="skills" data-value="languages">Idiomas</h3>
+            <div class="skill">
+              <div class="skill-meta">
+                <i class="skill-icon fas fa-language"></i>
+                <span class="skill-text" data-section="skills" data-value="spanish">Español</span>
+              </div>
+              <div class="skill-bar"><span style="width:100%"></span></div>
+            </div>
+            <div class="skill">
+              <div class="skill-meta">
+                <i class="skill-icon fas fa-language"></i>
+                <span class="skill-text" data-section="skills" data-value="english">Inglés</span>
+              </div>
+              <div class="skill-bar"><span style="width:33%"></span></div>
+            </div>
+          </div>
+
+          <!-- Column 6 -->
+          <div class="skills-column">
+            <h3 data-section="skills" data-value="other">Otras Habilidades</h3>
+            <div class="skill">
+              <div class="skill-meta">
+                <i class="skill-icon fas fa-project-diagram"></i>
+                <span class="skill-text" data-section="skills" data-value="adaptability">Adaptabilidad</span>
+              </div>
+              <div class="skill-bar"><span style="width:90%"></span></div>
+            </div>
+            <div class="skill">
+              <div class="skill-meta">
+                <i class="skill-icon fas fa-users"></i>
+                <span class="skill-text" data-section="skills" data-value="teamwork">Trabajo en Equipo</span>
+              </div>
+              <div class="skill-bar"><span style="width:95%"></span></div>
+            </div>
+            <div class="skill">
+              <div class="skill-meta">
+                <i class="skill-icon fas fa-lightbulb"></i>
+                <span class="skill-text" data-section="skills" data-value="problem">Resolución de Problemas</span>
+              </div>
+              <div class="skill-bar"><span style="width:80%"></span></div>
+            </div>
+          </div>
+
+        </div><!-- skills-wrapper -->
+      </div><!-- container -->
+    </section>
+
+    <!-- TIMELINE -->
+    <section class="section" id="experience">
+      <div class="container">
+        <h2 id="experience-title" data-section="experience" data-value="experience">Experiencia</h2>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-year" data-section="experience" data-value="date1">Junio 2025 - Julio 2025</span>
+              <h3 data-section="experience" data-value="title1">Participante en Feria de Proyectos - Universidad Nacional de Ingeniería</h3>
+              <p data-section="experience" data-value="des1">Presenté un proyecto de mejora de automatización al Proceso de Selección Docente actual.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 id="projects-title" data-section="proyects" data-value="proyects">Proyectos</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <img src="image/image_proyect_1.png" alt="Proyecto 1">
+            <div class="project-body">
+              <h3 data-section="proyects" data-value="title1">Sistema Web de Selección Docente</h3>
+              <p data-section="proyects" data-value="des1">Automatización y digitalización del proceso de selección docente.</p>
+              <p class="project-tags">Python · HTML · CSS · DOCKERFILE</p>
+              <div class="project-cta">
+                <!-- a class="btn small" href="#" target="_blank" rel="noopener">Ver demo</a -->
+                <a class="btn outline small" href="https://github.com/LeonardoCP12/Sistema_web_de_seleccion_docente" target="_blank" rel="noopener" data-section="proyects" data-value="code">Ver Código</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <img src="image/image_proyect_2.png" alt="Proyecto 2">
+            <div class="project-body">
+              <h3 data-section="proyects" data-value="title2">Portafolio</h3>
+              <p data-section="proyects" data-value="des2">Sitio web sobre mi trayectoria profesional.</p>
+              <p class="project-tags">HTML5 · CSS · JS · JSON</p>
+              <div class="project-cta">
+                <!-- a class="btn small" href="#" target="_blank" rel="noopener">Ver demo</a -->
+                <a class="btn outline small" href="#" target="_blank" rel="noopener" data-section="proyects" data-value="code">Ver Código</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <h2 id="contact-title" data-section="contact" data-value="contact">Contacto</h2>
+        <div class="contact-grid">
+          <form id="contactForm" class="contact-form">
+            <label>
+              <span data-section="contact" data-value="name">Nombre</span>
+              <input type="text" name="name" required>
+            </label>
+            <label>
+              <span data-section="contact" data-value="mail">Correo</span>
+              <input type="email" name="email" required>
+            </label>
+            <label>
+              <span data-section="contact" data-value="message">Mensaje</span>
+              <textarea name="message" rows="5" required></textarea>
+            </label>
+            <p><button class="btn primary" type="submit">Enviar</button></p>
+          </form>
+
+          <aside class="contact-info">
+            <h3 data-section="contact" data-value="plus">Más formas de contactarme</h3>
+            <p>Email: <a href="mailto:leonardo.cardenas.p@uni.pe">leonardo.cardenas.p@uni.pe</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/leonardo-gustavo-cárdenas-palacios-8655422a4" target="_blank" rel="noopener">Perfil</a></p>
+            <p>GitHub: <a href="https://github.com/LeonardoCP12" target="_blank" rel="noopener">github.com/LeonardoCP12</a></p>
+          </aside>
+
+          <div id="formMessage"></div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- BACK TO TOP -->
+  <a class="back-to-top" href="#home"><i class="fas fa-home"></i></a>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <p id="footer-text">© <span id="year"></span> <span data-section="footer" data-value="footer">Por Leonardo. Hecho con </span> ❤️.</p>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+{
+    "header":{
+        "My-Portfolio": "Mi Portafolio",
+        "About-me": "Sobre mi",
+        "Skills": "Habilidades",
+        "Experience": "Experiencia",
+        "Proyects": "Proyectos",
+        "Contact": "Contáctame"
+    },
+    "home":{
+        "Hello":"Hola! soy",
+        "Description":"Estudiante de Ingeniería de sistemas | Interés en ciberseguridad y gestión de proyectos.",
+        "View-CV":"Ver CV",
+        "Contact-me":"Contáctame"
+    },
+    "about-me":{
+        "About-me": "Sobre mi",
+        "Description2":"Soy estudiante de la carregar de ingeniería de sistemas, actualmente en 8vo ciclo en la Universidad Nacional de Ingeniería. Me interesa la ciberseguridad por el desafío de proteger sistemas críticos contra amenazas emergentes. La gestión de proyectos me permite liderar equipos y transformar ideas en soluciones reales. También veo en la ciencia de datos una oportunidad para generar insights valiosos que apoyen la toma de decisiones estratégicas."
+    },
+    "skills":{
+        "skills":"Habilidades",
+        "development":"Desarrollo",
+        "networking":"Redes y Monitoreo",
+        "tools":"Herramientas",
+        "languages":"Idiomas",
+        "other":"Otras Habilidades",
+        "spanish":"Español",
+        "english":"Inglés",
+        "adaptability":"Adaptabilidad",
+        "teamwork":"Trabajo en Equipo",
+        "problem":"Resolución de Problemas"
+    },
+    "experience":{
+        "experience":"Experiencia",
+        "date1":"Junio 2025 - Julio 2025",
+        "title1":"Participante en Feria de Proyectos - Universidad Nacional de Ingeniería",
+        "des1":"Presenté un proyecto de mejora de automatización al Proceso de Selección Docente actual."
+    },
+    "proyects":{
+        "proyects":"Proyectos",
+        "title1":"Sistema Web de Selección Docente",
+        "title2":"Mi Portafolio Web",
+        "des1":"Automatización y digitalización del proceso de selección docente.",
+        "des2":"Sitio web sobre mi trayectoria profesional.",
+        "code":"Ver Código"
+    },
+    "contact":{
+        "contact":"Contáctame",
+        "name":"Nombre",
+        "mail":"Correo",
+        "message":"Mensaje",
+        "plus":"Otras formas de contactarme"
+    },
+    "footer":{
+        "footer":"Por Leonardo. Hecho con"
+    }
+}
