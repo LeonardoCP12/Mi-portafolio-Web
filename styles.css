@@ -480,6 +480,7 @@ body.light-mode .timeline-item {
 .project-card {
   background: var(--card);
   border-radius: 12px;
+  height: 500px
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -664,3 +665,4 @@ small {
   }
 
 }
+
