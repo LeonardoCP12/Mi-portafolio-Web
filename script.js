@@ -61,7 +61,7 @@ const textsToChange = document.querySelectorAll("[data-section]");
 
 // Load language JSON and update page text
 function loadLanguage(lang) {
-  fetch(`/Mi-portafolio-Web/lang/${lang}.json`)
+  fetch(`lang/${lang}.json`)
     .then(res => res.json())
     .then(data => {
       textsToChange.forEach(el => {
@@ -117,4 +117,5 @@ form.addEventListener('submit', function(e) {
   });
 
 });
+
 
