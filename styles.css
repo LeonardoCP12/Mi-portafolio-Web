@@ -505,6 +505,9 @@ body.light-mode .project-card {
 }
 
 .project-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
   padding: 0.9rem;
 }
 
@@ -514,7 +517,7 @@ body.light-mode .project-card {
 }
 
 .project-cta {
-  margin-top: 0.75rem;
+  margin-top: auto;
   display: flex;
   gap: 0.5rem;
 }
@@ -659,4 +662,5 @@ small {
   #lang-select {
     display: none;
   }
+
 }
